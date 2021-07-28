@@ -7,5 +7,6 @@ output "key_name" {
 }
 
 output "key_id" {
-  value = "~/.ssh/id_rsa.pub"
+  value = "public_key"
 }
+
