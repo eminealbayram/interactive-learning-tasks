@@ -5,4 +5,4 @@ resource "aws_instance" "wordpress" {
   associate_public_ip_address = true
   monitoring                  = true
   key_name                    = aws_key_pair.test_key.key_name
-  user_data                   = file("user_data.sh")
+  user_data                   = file("userdata.sh")
