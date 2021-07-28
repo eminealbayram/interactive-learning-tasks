@@ -3,10 +3,10 @@ output "region" {
 }
 
 output "key_name" {
-  value = "ilearning-wordpress"
+  value = aws_key_pair.ilearning-wordpress.key_name
 }
 
 output "key_id" {
-  value = "public_key"
+  value = aws_key_pair.ilearning-wordpress.id
 }
 
