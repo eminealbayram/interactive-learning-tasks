@@ -6,3 +6,4 @@ resource "aws_instance" "wordpress" {
   monitoring                  = true
   key_name                    = aws_key_pair.test_key.key_name
   user_data                   = file("userdata.sh")
+}

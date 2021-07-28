@@ -1,15 +1,15 @@
 output "az" {
-    value = aws_instance.web.availability_zone
+  value = aws_instance.wordpress.availability_zone
 }
 
 output "public_ip" {
-    value = aws_instance.web.public_ip
+  value = aws_instance.wordpress.public_ip
 }
 
 output "instance_id" {
-    value = aws_instance.web.id
+  value = aws_instance.wordpress.id
 }
 
 output "region" {
-    value = "us-east-1"
+  value = "us-east-1"
 }

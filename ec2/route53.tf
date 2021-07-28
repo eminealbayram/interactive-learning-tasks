@@ -3,4 +3,5 @@ resource "aws_route53_record" "wordpress" {
   name    = "wordpress.ealbayram.com"
   type    = "A"
   ttl     = "60"
-  records = [aws_instance.web.public_ip]
+  records = ["aws_instance.wordpress.public_ip"]
+}
