@@ -1,7 +1,7 @@
 resource "aws_security_group" "external_by_terraform" {
   name        = "external_by_terraform"
   description = "Allow TLS inbound traffic"
-  
+
 
   ingress {
     description = "TLS from VPC"
